@@ -1,1 +1,98 @@
 
+ body {
+  background-color: #FFB6C1;
+  color: #fdfffc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #fdfffc;
+  text-decoration: none ;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #000;
+}
+
+
+.navbar .nav-link, .navbar-brand {
+  color: #fdfffc !important;
+  margin: 0 10px;
+}
+
+
+.section-intro {
+  padding: 60px 20px;
+}
+
+
+.section-intro img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+
+.section-intro .desc-box {
+  background-color: #4e0c92;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #fdfffc;
+}
+
+
+.section-skills {
+  background-color: #FFB6C1;
+  padding: 60px 20px;
+}
+
+
+.card-skill {
+  background-color: #4e0c92;
+  padding: 20px;
+  border-radius: 15px;
+  color: #fdfffc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.card-skill:hover {
+  transform: scale(1.05);
+}
+
+
+.section-learnings {
+  background-color: #FFB6C1;
+  padding: 60px 20px;
+}
+
+
+.card-learning {
+  background-color: #4e0c92;
+  padding: 20px;
+  border-radius: 15px;
+  color: #fdfffc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+footer {
+  background-color: #000;
+  color: #fdfffc;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+
+footer i {
+  margin-right: 10px;
+}
+ 
+ 
